@@ -12,31 +12,6 @@ Technical exercise Report
 
 
 
-Table of Contents
-########### [0.Setup the environment1]()
-########### [1.Collecting Metrics2]()
-##################### [1.1.Host Map2]()
-##################### [1.2.Database3]()
-##################### [1.3.갾my_metric갿 Custom Agent4]()
-########### [2.Visualizing Data5]()
-##################### [2.1.Datadog API script5]()
-##################### [2.2.Screenshot of Timeboard5]()
-##################### [2.3.Snapshot of Graph in email5]()
-##################### [2.4.What is the Anomaly graph displaying6]()
-########### [3.Monitoring Data7]()
-##################### [3.1.Alert Configuration &amp; notified email7]()
-##################### [3.2.Downtime configuration10]()
-###############################   [3.2.1.Weekday downtime schedule configuration10]()
-###############################   [3.2.2.Weekend downtime schedule configuration12]()
-########### [4.Collecting APM Data14]()
-##################### [4.1.Screenshot and Links14]()
-###############################   [4.1.1.Screen shot14]()
-###############################   [4.1.2.Link of dashboard.15]()
-###############################   [4.1.3.Application code15]()
-##################### [4.2.What is the difference between a Service and a Resource16]()
-########### [5.Final Question17]()
-########### [6.Extra self-learning18]()
-
 
 #
 # Setup the environment
@@ -69,7 +44,7 @@ I installed a MySQL.
 
 
 
-## 갾my_metric갿 Custom Agent
+## 혖gmy_metric혖h Custom Agent
 
 I created a custom agent.
 It sends my_metric metric with configurable collection internal.
@@ -112,7 +87,7 @@ Custom Agent code etcdatadog-agentchecks.dmy_metric.py
 
 # Visualizing Data
 ## Datadog API script
-Please check attached 갾ddTimeboard1.py갿
+Please check attached 혖gddTimeboard1.py혖h
 
 ## Screenshot of Timeboard
 Past 1 Hour
@@ -237,7 +212,7 @@ Notified email
 httpsp.datadoghq.comsbdzuqk188by5mh7ni-5051b5d89878a5eff90fc7af0e0b52c2
 
 ### Application code
-Python application code is included in, 갾empapp.zip갿 file.
+Python application code is included in, 혖gempapp.zip혖h file.
 
 I utilized PythonFlask code below.
 httpscodeloop.orgflask-crud-application-with-sqlalchemy
@@ -257,8 +232,8 @@ Within APM Trace tab, you can verify your service, resource like below.
 # Final Question
 
 Current covid-19 situation, various event, like concert, are delivered by online streaming.
-Sometimes video streaming is delayed, it takes a time to enroll. And worst case, online distribution can갽t be started because of service down.
-These events are not free. And if you can갽t deliver an event you have to engage a lot of negative work and cause customer retention issue.
+Sometimes video streaming is delayed, it takes a time to enroll. And worst case, online distribution can혖ft be started because of service down.
+These events are not free. And if you can혖ft deliver an event you have to engage a lot of negative work and cause customer retention issue.
 In order to avoid these situations, organization who hosts events can use Datadog to monitor infrastructure resources.
 You could monitor each event and recognize how many users are enrolled, how server, network resources are utilized etc. And utilize these information for next event.
 
