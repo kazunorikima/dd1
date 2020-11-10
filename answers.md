@@ -33,6 +33,7 @@ On the other side, as a self-learning I used following platform too.
 ## Host Map
 I added three tags in datadog.yaml file.
 ![](mediaimage3.png)
+![image3](https://user-images.githubusercontent.com/74218621/98612547-b4e4d080-2337-11eb-8fcf-dc9b6614c9e8.png)
 
 ![](mediaimage4.png)
 
