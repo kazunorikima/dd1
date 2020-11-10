@@ -232,8 +232,8 @@ Within APM Trace tab, you can verify your service, resource like below.
 # Final Question
 
 Current covid-19 situation, various event, like concert, are delivered by online streaming.
-Sometimes video streaming is delayed, it takes a time to enroll. And worst case, online distribution canft be started because of service down.
-These events are not free. And if you canft deliver an event you have to engage a lot of negative work and cause customer retention issue.
+Sometimes video streaming is delayed, it takes a time to enroll. And worst case, online distribution can nott be started because of service down.
+These events are not free. And if you can not deliver an event you have to engage a lot of negative work and cause customer retention issue.
 In order to avoid these situations, organization who hosts events can use Datadog to monitor infrastructure resources.
 You could monitor each event and recognize how many users are enrolled, how server, network resources are utilized etc. And utilize these information for next event.
 
