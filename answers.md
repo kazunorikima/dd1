@@ -44,7 +44,7 @@ I installed a MySQL.
 
 
 
-## gmy_metrich Custom Agent
+## my_metric Custom Agent
 
 I created a custom agent.
 It sends my_metric metric with configurable collection internal.
@@ -87,7 +87,7 @@ Custom Agent code etcdatadog-agentchecks.dmy_metric.py
 
 # Visualizing Data
 ## Datadog API script
-Please check attached gddTimeboard1.pyh
+Please check attached ddTimeboard1.py
 
 ## Screenshot of Timeboard
 Past 1 Hour
@@ -212,7 +212,7 @@ Notified email
 httpsp.datadoghq.comsbdzuqk188by5mh7ni-5051b5d89878a5eff90fc7af0e0b52c2
 
 ### Application code
-Python application code is included in, gempapp.ziph file.
+Python application code is included in, empapp.zip file.
 
 I utilized PythonFlask code below.
 httpscodeloop.orgflask-crud-application-with-sqlalchemy
